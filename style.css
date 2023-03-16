@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mitr', sans-serif;
+}
+.txt-main {
+  font-weight: 500;
+}
+.txt-sub {
+  font-weight: 300;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.wrap-hd {
+  position: sticky;
+  top: 0;
+}
+.wrap-hd .wrap-nav-info {
+  background-color: #7fbdf0;
+}
+.wrap-hd .wrap-nav-info .nav-info {
+  max-width: 1390px;
+  max-height: 65px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 32px;
+}
+.wrap-hd .wrap-nav-info .nav-info a {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  text-decoration-color: white;
+  position: relative;
+}
+.wrap-hd .wrap-nav-info .nav-info a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid white;
+  transform: translate(2.5px, 5px);
+}
+.wrap-hd .wrap-nav-info .nav-info a:last-child {
+  margin-left: 20px;
+}
+.wrap-hd .wrap-bar {
+  background-color: #4299f8;
+}
+.wrap-hd .wrap-bar .nav-bar {
+  max-width: 1390px;
+  max-height: 65px;
+  height: 65px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+.wrap-hd .wrap-bar .nav-bar picture {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.wrap-hd .wrap-bar .nav-bar picture img {
+  width: 100%;
+  height: 100%;
+}
+.wrap-hd .wrap-bar .nav-bar .nav-item {
+  color: white;
+}
+.wrap-hd .wrap-bar .nav-bar .nav-item:nth-child(3)::after,
+.wrap-hd .wrap-bar .nav-bar .nav-item:nth-child(4)::after,
+.wrap-hd .wrap-bar .nav-bar .nav-item:nth-child(6)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid white;
+  transform: translate(10px, 8px);
+}
+.wrap-hd .wrap-bar .nav-bar .nav-item:last-child {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #e3782f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-hd .wrap-bar .nav-bar .nav-item:last-child picture {
+  display: none;
+}

@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="wrap-bar">
-            <div class="nav-bar">
+            <div class="nav-bar-dt">
                 <picture>
                     <img src="/imgs/foremost-logo.png" alt="Foremost" srcset="/imgs/foremost-logo.png">
                 </picture>
@@ -45,6 +45,23 @@
                     <span>สั่งซื้อออนไลน์</span>
                 </a>
             </div>
+            <div class="nav-bar-mb">
+                <a class="mb-menu" href="#">
+                    <picture>
+                        <img src="/imgs/icon/menu.png" alt="Foremost Menu">
+                    </picture>
+                </a>
+                <a class="mb-menu" href="#">
+                    <picture>
+                        <img src="/imgs/foremost-logo.png" alt="Foremost">
+                    </picture>
+                </a>
+                <a class="mb-menu" href="#">
+                    <picture>
+                        <img src="/imgs/icon/cart.png" alt="Foremost Cart">
+                    </picture>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -53,7 +70,7 @@
             <div class="wrap-banner">
                 <picture>
                     <source media="(min-width: 768px)" srcset="/imgs/sc1_dt.png">
-                    <source media="(max-width: 767px)" srcset="/imgs/sc1_dt.png">
+                    <source media="(max-width: 767px)" srcset="/imgs/sc1_mb.png">
                     <img src="/imgs/sc1_dt.png" alt="Foremost New Coffee Late" srcset="/imgs/sc1_dt.png">
                 </picture>
                 <div class="banner-ct">
@@ -111,7 +128,9 @@
                         </div>
                     </div>
                     <div class="wrap-store"></div>
-                    <picture>
+                    <picture class="ft-pic">
+                        <source media="(min-width: 768px)" srcset="/imgs/footer.png">
+                        <source media="(max-width: 767px)" srcset="/imgs/footer_mb.png">
                         <img src="/imgs/footer.png" alt="Foremost Coffee latea" srcset="/imgs/footer.png">
                     </picture>
                 </div>
@@ -119,7 +138,8 @@
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/app.js"></script>
 </body>
 </html>

@@ -52,18 +52,6 @@ function genConsList() {
 function genStoreList() {
     let storeObj = [
         {
-            'img': '/imgs/store_platform/1.png',
-            'alt': 'lazada'
-        },
-        {
-            'img': '/imgs/store_platform/2.png',
-            'alt': 'shoppee'
-        },
-        {
-            'img': '/imgs/store_platform/3.png',
-            'alt': 'jd central'
-        },
-        {
             'img': '/imgs/store_platform/4.png',
             'alt': 'big c'
         },
@@ -78,6 +66,18 @@ function genStoreList() {
         {
             'img': '/imgs/store_platform/7.png',
             'alt': 'tops'
+        },
+        {
+            'img': '/imgs/store_platform/1.png',
+            'alt': 'lazada'
+        },
+        {
+            'img': '/imgs/store_platform/2.png',
+            'alt': 'shoppee'
+        },
+        {
+            'img': '/imgs/store_platform/3.png',
+            'alt': 'jd central'
         },
     ];
     let _html = '';
